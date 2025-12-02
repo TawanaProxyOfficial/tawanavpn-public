@@ -1,30 +1,58 @@
 # Tawanavpn / Tawana Proxy — Public Documentation | مستندات عمومی
 
-This repository contains the bilingual (Persian/English), sanitized, and non-operational documentation set for the Tawanavpn project. It focuses on the funding roadmap, the high-level OTF/IFF review workflow, and publication artifacts for Figshare/Zenodo. No configuration details, domains, IPs, or operational guidance are included.
+This repository is the public, bilingual (Persian/English), sanitized, and non-operational home for the Tawanavpn roadmap materials. It organizes the full FA/EN articles, publication checklist, metadata, and license needed for Figshare/Zenodo or similar research archives. No configuration details, domains, IPs, routing hints, or operational guidance are included.
 
-این مخزن شامل نسخهٔ دوزبانهٔ فارسی/انگلیسی، سانیتایز و غیرعملیاتیِ مستندات پروژهٔ Tawanavpn است. تمرکز بر نقشهٔ راه فاندینگ، روند بررسی OTF/IFF در سطح بالا، و فایل‌های لازم برای انتشار در Figshare/Zenodo است. هیچ جزئیات فنی، دامنه، IP یا دستورالعمل عملیاتی در اینجا درج نشده است.
+این مخزن نسخهٔ عمومی، دوزبانه (فارسی/انگلیسی)، سانیتایز و غیرعملیاتیِ مستندات پروژهٔ Tawanavpn / Tawana Proxy است. مقالات کامل فارسی و انگلیسیِ نقشه‌راه، چک‌لیست انتشار، متادیتا و مجوز لازم برای آرشیوهای پژوهشی (Figshare/Zenodo و مشابه) در اینجا قرار داده شده‌اند. هیچ جزئیات فنی حساس، دامنه، IP، مسیرها یا راهنمای عملیاتی در این مخزن منتشر نمی‌شود.
 
-## Contents | محتوا
-- `ROADMAP_FULL_v1.md`: Full bilingual funding roadmap and OTF/IFF review workflow (v1.0, sanitized).
-- `ROADMAP_v1_bilingual.md`: Concise bilingual public roadmap summary (v1.0, sanitized).
-- `publication_and_sanitization_checklist.md`: Bilingual publication checklist for documents, repos, and metadata.
-- `figshare_metadata.json`: Example metadata for repository upload to Figshare/Zenodo (CC BY 4.0).
-- `LICENSE`: Creative Commons Attribution 4.0 International license.
+---
 
-## Purpose and scope | هدف و دامنه
-- Provide a clear, human-readable roadmap for funding and review steps without operational details.
-- Keep all guidance non-sensitive and suitable for public sharing.
-- Support routine weekly updates to roadmap status and documentation hygiene, while keeping sensitive items outside public repos.
+## Repository structure | ساختار مخزن
+- `docs/articles/fa/Tawanavpn_Funding_Roadmap_v1_Version5.md`  
+  Persian full article (v1, sanitized, non-operational).
+- `docs/articles/en/ROADMAP_EN_v1.md`  
+  English full article (v1, sanitized, non-operational).
+- `docs/checklists/publication_and_sanitization_checklist.md`  
+  Bilingual publication & sanitization checklist.
+- `metadata/figshare_metadata.json`  
+  Example Figshare/Zenodo metadata (CC BY 4.0).
+- `LICENSE`  
+  Creative Commons Attribution 4.0 International license text.
+- `CHANGELOG.md`  
+  Public log of sanitized documentation updates.
+
+---
+
+## Scope and principles | دامنه و اصول
+- Public, sanitized roadmap materials only.  
+  No operational circumvention details, configs, domains, IPs, routes, or step-by-step methods.
+- Living roadmap updated weekly or at phase milestones.  
+  Updates remain high-level and non-operational.
+- Publication assets (metadata, checklist, license) are provided to keep releases consistent and safe.
+
+---
 
 ## Usage | استفاده
-- Use these documents to communicate strategy, milestones, and review expectations with partners.
-- Before linking to any code repository, run the bilingual checklist to ensure sanitization and non-operational status.
-- For Figshare/Zenodo uploads, pair the Markdown files with generated PDFs and apply the included metadata structure.
+- Refer to the FA/EN articles in `docs/articles/` for the current roadmap narrative and OTF/IFF review workflow.
+- Use the checklist in `docs/checklists/` before linking any technical repository or uploading to Figshare/Zenodo.
+- When publishing to research archives, pair Markdown sources with generated PDFs and reuse the metadata in `metadata/figshare_metadata.json`.
 
-## Maintenance | نگه‌داری
-- Review content weekly to reflect funding priorities and reviewer feedback; add only non-sensitive details.
-- Keep operational or network-specific data in private channels; do not add domains, IPs, configs, or bypass instructions here.
-- Update the checklist and metadata when releasing new versions or when repository structures change.
+---
 
-## Contact | ارتباط
-For coordination, publication scheduling, or DOI linkage, use trusted channels only. Public inquiries can reference this sanitized documentation.
+## Maintenance cadence | زمان‌بندی نگه‌داری
+- Review content weekly and after major phases; add only sanitized, non-sensitive updates.
+- Keep operational/network-specific data in private channels.
+- Update checklist, metadata, and changelog whenever a new public version is released.
+
+---
+
+## Public profiles | پیوندهای عمومی (امن)
+- Website: https://tawana.online  
+- ORCID: 0009-0005-6825-6728  
+- GitHub (profile): https://github.com/tawanamohammadi  
+- Medium: https://tawanamohammadi.medium.com  
+- Google Scholar: https://scholar.google.com/citations?user=VP8O0a4AAAAJ  
+
+---
+
+## Tools used for final editing
+ویرایش و تنظیم نهایی متن با کمک ChatGPT 5.1 و Copilot GPT-5 mini انجام شده است.
