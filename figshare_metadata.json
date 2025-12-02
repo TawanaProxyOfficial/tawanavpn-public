@@ -1,0 +1,20 @@
+{
+  "title": "Tawanavpn Funding Roadmap & OTF IFF Review Workflow (v1.0)",
+  "authors": [
+    { "name": "Tawana Mohammadi" }
+  ],
+  "description": "Bilingual (Persian/English) public roadmap describing funding pathways and the OTF/IFF review workflow for the Tawanavpn project. Sanitized and non-operational; no configuration, domains, IPs, or bypass instructions are included.",
+  "keywords": [
+    "Tawanavpn",
+    "funding roadmap",
+    "OTF",
+    "IFF",
+    "documentation",
+    "sanitized",
+    "non-operational"
+  ],
+  "license": "CC BY 4.0",
+  "resource_type": "Documentation",
+  "version": "1.0",
+  "publication_date": "2025-12-02"
+}
